@@ -9,7 +9,7 @@ exports.commands = commands;
 
 commands.godaddy = {
   name: 'godaddy',
-  usage: 'overcast godaddy [instance|cluster|all] [options...]',
+  usage: 'overcast godaddy [instance|cluster|all] [recordname] [options...]',
   description: [
     'Create new records @Godaddy',
     'Expects a record name, for example overcast.google.com'
